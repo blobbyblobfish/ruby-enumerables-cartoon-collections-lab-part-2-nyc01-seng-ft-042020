@@ -34,6 +34,6 @@ def find_valid_calls(planeteer_calls)
   index = 0 
   
   while index < planeteer_calls.length do
-    planeteer_calls[index].detect 
+    planeteer_calls[index].detect {index 
   
 end
